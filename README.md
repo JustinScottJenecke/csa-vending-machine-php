@@ -20,13 +20,11 @@ This project walkthrough should be undertaken once the students have completed t
 <ol>
   <li>Intro to PHP - Syntax, variables, types, conditionals</li>
   <li>Enumerating PHP - Arrays, Multidemensional Arrays, Associative Arrays, Loops</li>
-  <li>SuperGlobals - GET vs POST, Forms</li>
-  <li>SuperGlobals - COOKIES, SESSIONS, SERVER</li>
 </ol>
 
 ### 2. PHP Learn by example - Code Walkthrough
 <ol>
-  <li>SuperGlobals - Assoc Arrays and CRUD to a SESSION variable</li>
+  <li>SuperGlobals - GET & POST & SESSIONS, Assoc Arrays and CRUD to a SESSION variable</li>
   <li>Functions - Abstract CRUD functionality functions, introduce concept of includes, require</li>
   <li>OOP Fundamentals - Classes, Fields and Methods vs Variables and Functions, Access Modifiers, GET & SET</li>
   <li>OOP Advanced - Inheritence, POJO vs Model Class, Private vs Protected</li>
