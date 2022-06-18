@@ -12,10 +12,12 @@
 
     <body>
         
-        <div>
-            <main>
-                
-            </main>
+        <div class="login">
+            <form class="shop" action="./src/pages/app.php" method="get">
+                <button class="button">
+                    Purchase from Machine:
+                </button>
+            </form>
         </div>
 
     </body>
