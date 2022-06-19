@@ -12,25 +12,38 @@
 
     <body>
 
-        <h1>
+        <h1 class="title">
             Vending Machine
         </h1>
         
         <section class="controls">
             <div>
-                Create
+                <h3 class="subtitle">
+                    Create
+                </h3>
             </div>
             <div>
-                Update
+                <h3 class="subtitle">
+                    Update
+                </h3>
             </div>
             <div>
-                Delete
+                <h3 class="subtitle">
+                    Delete
+                </h3>
             </div>
         </section>
 
         <main class="main">
             <section class="items">
-                display items here
+                <div class="item">
+                    <span>
+                        <img class="item-image" src="https://bulma.io/images/placeholders/128x128.png">
+                    </span>
+                    <span class="tag is-black">Fanta</span>
+                    <span class="tag is-black">Stock: 0</span>
+                    <span class="tag is-black">R25,00</span>
+                </div>
             </section>
             <section class="inputs">
                 Purchase products here

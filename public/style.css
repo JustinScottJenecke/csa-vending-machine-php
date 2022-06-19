@@ -4,15 +4,22 @@
 
     body { 
         margin: 0; 
+        min-height: 100vh;
         display: flex;
         flex-direction: column;
         text-align: center;
+        background-color: black;
+        color: whitesmoke !important;
     }
 
     h1, h2, h3 {
         text-align: center !important;
         margin: 0 !important;
         padding: 1.25rem !important;
+    }
+
+    .title, .subtitle {
+        color: rgb(255, 255, 255) !important;
     }
 
 /*====================== Login ===========================*/
@@ -47,10 +54,17 @@
             display: flex;
             flex-direction: column;
             min-height: 70vh;
+            margin-top: 1rem;
         }
         .items{
             padding: 1rem;
             min-height:inherit;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        #item-title {
+            grid-column-start: 1;
+            grid-column-end: 3;
         }
         .inputs {
             padding: 1rem;
@@ -65,12 +79,36 @@
 
             .items {
                 flex: 3;
-                background-color: aquamarine;
+                background-color: rgb(150, 245, 248);
                 min-height: 100%;
+                display: grid;
+                grid-template-columns: repeat(5, 1fr);
             }
-
+            #item-title {
+                grid-column-start: 1;
+                grid-column-end: 6;
+            }
             .inputs {
                 flex: 1;
                 min-height: 100%;
+                display: flex;
+                flex-direction: column;
             }
+        }
+
+    /* ===== Item ===== */
+
+        .item {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin: 1rem;
+        }
+        .item span {
+            min-width: 100%;
+            margin: 0.25rem;
+        }
+        .item-image {
+            height: 176px;
+            width: 142px;
         }
